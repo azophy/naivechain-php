@@ -109,8 +109,8 @@ As stated in Hartikk's post, this "NaiveChain" implementation is only aimed to s
 
 # References
 * The original code:
--- article : https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54
--- source code : https://github.com/lhartikk/naivechain
+    - article : https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54
+    - source code : https://github.com/lhartikk/naivechain
 * on PHP Socket Stream for connection:
--- https://shane.logsdon.io/posts/simple-php-socket-programming/
--- https://www.christophh.net/2012/07/24/php-socket-programming/
+    - https://shane.logsdon.io/posts/simple-php-socket-programming/
+    - https://www.christophh.net/2012/07/24/php-socket-programming/
