@@ -1,5 +1,5 @@
-Blockhain in 200-ish line of PHP codes
-=====================================
+BlockChain in 200-ish line of PHP codes
+=======================================
 
 For the past 2 days I have been attempting to convert a magnificent piece of code created by Lauri Hartikka. The simple script, dubbed as "NaiveChain" actually provide with many insight in understanding this interesting piece of technology. For a couple of months, I've been struggling to wrap my head on this crazy concept. Blockchain to this days remains as some sort of a mythical creatures that lots of people believe in, but rarely ever been sighted on site, at lease source code-wise.
 
