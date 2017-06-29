@@ -9,7 +9,7 @@ To be honest, this attempt turned out to be a whole lot more challanging than wh
 
 # Usage:
 ## server
-from the directory just run "php naivechain.php <IP-address>:<post>". example: 
+from the directory just run ```"php naivechain.php <IP-address>:<post>"```. example: 
 
 	php naivechain.php 127.0.0.1:8000
 
