@@ -1,11 +1,11 @@
 BlockChain in 200-ish line of PHP codes
 =======================================
 
-For the past 2 days I have been attempting to convert a magnificent piece of code created by Lauri Hartikka. The simple script, dubbed as "NaiveChain" actually provide with many insight in understanding this interesting piece of technology. For a couple of months, I've been struggling to wrap my head on this crazy concept. Blockchain to this days remains as some sort of a mythical creatures that lots of people believe in, but rarely ever been sighted on site, at lease source code-wise.
+For the past 2 days I have been attempting to convert a magnificent piece of code created by Lauri Hartikka. The simple script, dubbed as "NaiveChain" actually provide with many insight for understanding this interesting piece of technology. For a couple of months, I've been struggling to wrap my head on this crazy concept. Blockchain to this days remains as some sort of a mythical creatures that lots of people believe in, but rarely ever been sighted on site, at lease source code-wise.
 
-In that account, as I'm more of a person who leran a whole lot from creating (and breaking) thins by myself, I try to learn from existing code about this topic. Aound that time that I stumbled upon Hartikka's code, and decided to implement the code myself, but in the language I'm most familiar with : PHP.
+In that account, as I'm more of a person who learn a whole lot from creating (and breaking) things by my own hand, I try to learn from existing code about this topic. Around that time when I stumbled upon Hartikk's code, and decided to implement the code myself, but in the language I'm most familiar with : PHP.
 
-To be honest, this attempt turned out to be a whole lot more challanging than what I originally expected. But the pays sure is worth it. In the process I realize that at least 
+To be honest, this attempt turned out to be a whole lot more challanging than what I originally expected. But the pays sure is worth it.
 
 # Usage:
 ## server
@@ -93,7 +93,7 @@ If you are interested in PHP Socket Stream (its different from "socket_" methods
 As you can guess, both class are where the actual BlockChain definition is. Its quite straightforward, so I guess you wouldn't have many troubles reading it yourself. And I suggest to read Hartikk's original article first if you haven't
 
 ## the "controller" section
-Despite the actual BlockChain definition is quite easy to understanding, many portion of what making BlockChain difficult to understand is actualy in the protocol implementation. The last section is where the Socket Server is actually initiated, and also the place where the incoming request is processed. Unlike Hartikk's aproach which use separate server to handle P2P and blockhain queries, here I decided to combine both into one request handler.
+Despite the actual BlockChain definition is quite easy to understand, many portions of what make BlockChain difficult to understand is actualy the protocol implementation. The last section is where the Socket Server is actually initiated, and also the place where the incoming request is processed. Unlike Hartikk's aproach which use separate server to handle P2P and blockhain queries, here I decided to combine both into one request handler.
 
 Currently I only implemented 6 queries:
 
@@ -105,7 +105,7 @@ Currently I only implemented 6 queries:
 - mineBlock : the actual part where the data is stored. Note that this implementation use no 'proof-of-work' or such, thus every request would directly being wrapped into a blocked and broadcasted into the network.
 
 # Conclusion
-As stated in Hartikk's post, this "NaiveChain" implementation is only aimed to show you what is blockchain and how it works, without mixing the explanation with what its tryining to solve (Proof-of-work, Smart Contract, Transactions, etc). I myself still in the process of learning this amazing piece of technology, so I open up for discussion. If you have any questions or may be some corrections, just mail me by azophy at gmail dot com, or chat me in telegram @azophy. Thanks for reading.
+As stated in Hartikk's post, this "NaiveChain" implementation is only aimed to show you what is blockchain and how it works, without mixing the explanation with what it is tryining to solve (Proof-of-work, Smart Contract, Transactions, etc). I myself still in the process of learning this amazing piece of technology, so I open up for discussion. If you have any questions or may be some corrections, just mail me by azophy at gmail dot com, or chat me in telegram @azophy. Thanks for reading.
 
 # References
 * The original code:
